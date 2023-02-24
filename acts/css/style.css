@@ -1,0 +1,209 @@
+/* act buttons style */
+
+.act-btn-style {
+	display: block;
+	max-width: 190px;
+	width: 190px;
+	text-align: center;
+	border: 1px solid;
+	padding: 10px 16px 9px;
+	font-size: 11px;
+	border-radius: 6px;
+	letter-spacing: 1px;
+}
+
+.single-post .act-btn-style {
+	max-width: 250px;
+	width: 250px;
+}
+
+.mark-act-completed-c:hover {
+	background: #FFA100;
+	color: #fff;
+}
+
+.mark-act-completed-c {
+	color: #ffffff;
+	background: #FCB53B;
+}
+
+.act-completed-c {
+	border-color: #ddd;
+	color: #717171;
+}
+
+.act-completed-c:hover {
+	color: #717171;
+}
+
+.login-to-complete:hover {
+	color: #717171;
+}
+
+.login-to-complete {
+	border-color: #ddd;
+	color: #717171;
+}
+
+.mark_button_listing .read_more {
+	font-size: 11px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px 16px 8px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	max-width: 190px;
+	display: block;
+	text-align: center;
+}
+
+.read_more_wrapper {
+	width: 50%;
+	float: left;
+}
+
+.my-acts-main {
+	width: 50%;
+	float: left;
+}
+
+.single-post .read_more_wrapper {
+	width: 100%;
+	float: none;
+}
+
+.single-post .my-acts-main {
+	width: 100%;
+	float: none;
+}
+
+.blog-entry-readmore {
+	display: none;
+}
+
+.mark_button_listing::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.mark_button_listing {
+	margin-top: 40px;
+}
+
+.single-post .my-acts-main {
+	margin-top: 43px !important;
+	margin-bottom: 48px !important;
+}
+
+.single-post .act-btn-style {
+	padding: 11px 33px 11px;
+	font-size: 14px;
+}
+
+.my-acts-page-main {
+	max-width: 650px;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	min-height: 370px;
+}
+
+.my-acts-page-main .mark_button_listing {
+	max-width: 485px;
+}
+
+.remove_acts {
+	color: #717171;
+	border-color: #ddd;
+}
+
+.login-to-complete {
+	border-color: #ddd;
+	color: #717171;
+	padding: 10px 5px 9px !IMPORTANT;
+	max-width: 215px;
+	width: 215px;
+}
+
+.single-post .my-acts-main .login-to-complete {
+	padding: 10px 16px 9px !important;
+	max-width: 280px;
+	width: 280px;
+}
+
+.mark-act-completed-c {
+	color: #ffffff;
+	background: #FCB53B;
+}
+
+.act-completed-c {
+	padding: 10px 16px 9px;
+}
+
+.my-acts-page-main .mark_button_listing .act-completed-c:hover {
+	color: #717171 !important;
+}
+
+.my-acts-page-main .mark_button_listing .my-acts-main:hover {
+	color: #717171 !important;
+}
+
+.single-post .mark-act-completed-c {
+	max-width: 300px;
+	width: 300px;
+}
+
+.mark-act-completed-c {
+	max-width: 200px;
+	width: 200px;
+}
+
+@media (max-width: 1280px) {
+	.mark_button_listing {
+		max-width: 600px;
+	}
+}
+
+@media (max-width: 480px) {
+	.my-acts-main {
+		width: 100%;
+		float: left;
+	}
+	.read_more_wrapper {
+		width: 100%;
+		float: left;
+	}
+	.act-completed-c {
+		padding: 10px 29px 9px;
+	}
+	.single-post .act-btn-style {
+		padding: 11px 29px 11px;
+		font-size: 13px;
+	}
+	.single-post .my-acts-main .login-to-complete {
+		padding: 7px 16px 6px !important;
+		max-width: 270px;
+		width: 270px;
+		font-size: 12px;
+	}
+	.mark_button_listing .act-completed-c:hover {
+		padding: 10px 16px 9px;
+		color: #fff;
+	}
+	.my-acts-page-main .mark_button_listing .my-acts-main:hover {
+		color: #717171 !important;
+		padding: 10px 16px 9px;
+	}
+	.single-post .mark-act-completed-c {
+		max-width: 250px;
+		width: 250px;
+	}
+	.mark-act-completed-c {
+		max-width: 190px;
+		width: 190px;
+		padding: 10px 12px 9px;
+	}
+}

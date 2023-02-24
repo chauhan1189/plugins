@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: acts\n"
+"POT-Creation-Date: 2019-08-07 12:44+0530\n"
+"PO-Revision-Date: 2019-08-07 12:45+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: C:/xampp/htdocs/mobiloud/wp-content/plugins/acts\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: acts.php:90
+msgid "My Acts"
+msgstr "Mes actes"
+
+#: acts.php:131
+msgid "MARK AS INCOMPLETE"
+msgstr "MARQUE COMME INCOMPLÈTE"
+
+#: acts.php:135 acts.php:226 acts.php:260
+msgid "ACT COMPLETED!"
+msgstr "ACTE TERMINÉ!"
+
+#: acts.php:297
+msgid "Continue Reading"
+msgstr "Continuer la lecture"
+
+#: acts.php:141 acts.php:146 acts.php:263
+msgid "MARK AS COMPLETED"
+msgstr "MARQUE COMME REMPLI"
+
+#: templates\my-acts.php:85 acts.php:260
+msgid "Oops ! No acts completed."
+msgstr "Oops ! Aucun acte accompli."
+
+#: templates\my-acts.php:23 acts.php:112
+msgid "Please Login To Complete Act"
+msgstr "Veuillez vous connecter pour compléter l'acte"
